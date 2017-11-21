@@ -2,20 +2,20 @@
 
 <config>
     <!-- The title that appears in the gadget's title bar. -->
-    <entry key="title" label="Title">Gadget Starter</entry>
+    <entry key="title" label="Title">Monsido Dashboard App</entry>
     
     <!-- The URL of an icon image. -->
     <entry key="icon" private="true">http://commons.omniupdate.com/favicon.ico</entry>
     
     <!-- The description that appears in the gadget chooser. -->
-    <entry key="description" private="true">What my gadget does.</entry>
+    <entry key="description" private="true">Adds Monsido content to the dashboard.</entry>
     
     <!-- The URL of a thumbnail image to appear in the gadget chooser. -->
     <entry key="thumbnail" private="true">http://fakeimg.pl/96/</entry>
     
     <!-- Current supported types are "dashboard" and "sidebar". If you want your gadget to appear
          in both places, enter "dashboard, sidebar". -->
-    <entry key="types" private="true">dashboard, sidebar</entry>
+    <entry key="types" private="true">dashboard</entry>
     
     <!-- This entry, if present, causes OU Campus to forward notifications of the specified 
          type(s) to the gadget. Enter one or more notification types separated by commas. -->
@@ -34,7 +34,10 @@
     <!-- Below is a custom config entry. Custom entries are for the gadget's internal use only.
          You can add as many custom entries as you wish. The "private" and "overwritable" flags
          apply to custom entries too. -->
-    <entry key="font_size" label="Font Size" overwritable="true">14px</entry>
+    <entry key="application_id" label="Application Id" overwritable="true"></entry>
+    <entry key="client_secret" label="Client Secret" overwritable="true"></entry>
+    <entry key="access_token" label="Access Token" overwritable="true"></entry>
+    <entry key="domain_id" label="Domain Id" overwritable="true"></entry>
 
 </config>
 

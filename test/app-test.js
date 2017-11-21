@@ -6,8 +6,6 @@ global.jQuery = global.$ = require("jquery");
 
 
 var assert = require('chai').assert;
-//var app = require('../source/js/sourceFile.js');
-
 
 describe('test ', function() {
 
