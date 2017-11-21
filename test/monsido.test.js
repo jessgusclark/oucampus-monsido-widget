@@ -9,7 +9,7 @@ var app = require('../source/js/monsido.js');
 
 describe('monsido test ', function() {
 
-	var monsido = app.monsido;
+	var monsido = app.monsidoBridge;
 
 	it('should return json', function(){
 		assert.equal(

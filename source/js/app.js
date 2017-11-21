@@ -21,9 +21,13 @@ $(document).ready(function () {
         console.log("Access Token ", monsidoToken );
         console.log("Domain ", domain);
 
-        var monsido = new monsido();
+        var monsido = monsidoBridge();
 
-        console.log( monsido.getPrioritizedContent(monsidoToken, domain) );
+        /*monsido.getToken().then(function (data){
+            console.log("token:", data.access_token )
+        });*/
+
+        console.log( monsido.getPrioritizedContent("9b82b329633af525e9dea62a9666ab23f18b6ef1b60b79ca6a06236990272669", domain) );
 
         //$('#main').css({ 'font-size': gadget.getConfig('font_size') });
     });
